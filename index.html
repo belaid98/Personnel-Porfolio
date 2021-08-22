@@ -233,7 +233,7 @@ thanks to my integration into the associative university life (clubs) and profes
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form  name="contact" method="POST" action="back.php">
+                    <form  name="contact" method="POST" data-netlify="true">
                         <div class="fields">
                             <div class="field name">
                                 <input name="name" type="text" placeholder="Name" required>
@@ -249,7 +249,7 @@ thanks to my integration into the associative university life (clubs) and profes
                             <textarea name="message" cols="30" rows="10" placeholder="Message.." onkeyup="envoyer(this)"></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit" name="envoyer">Send message</button>
+                            <button type="submit" name="form-name" value="contact">Send message</button>
                         </div>
                     </form>
                 </div>
